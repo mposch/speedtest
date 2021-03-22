@@ -44,8 +44,9 @@ The `of=` specifies the output filename and `bs=` the filesize in bytes
 where the M suffix is megabytes and G is gigabytes.
 
 ```sh
-# 100mb.bin
-dd if=/dev/zero of=100mb.bin bs=100M count=1
+for i in 1 5 10 100 1000; do dd if=/dev/urandom of="$i"mb.bin bs=1M count=$i;done
+dd if=/dev/urandom of=customTest.bin bs=1k count=7684
+dd if=/dev/urandom of=1kb.bin bs=1k count=1
 ```
 
 
