@@ -29,13 +29,10 @@ git clone https://github.com/fvdm/speedtest
 ```
 
 To keep the repository small I have not included the test binaries.
-You can download them from my server.
-
-
-Generate Testfiles on Server backend:
+You can download them from the original Project page, or generate files on the backend:
 
 The `of=` specifies the output filename and `bs=` the filesize in bytes
-where the M suffix is megabytes and G is gigabytes.
+where the k suffix in kiloBytes, the M suffix is megabytes and G stands for gigabytes
 
 ```sh
 for i in 1 5 10 100 1000; do dd if=/dev/urandom of="$i"mb.bin bs=1M count=$i;done
