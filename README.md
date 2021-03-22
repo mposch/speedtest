@@ -22,12 +22,6 @@ keys on your keyboard.
 Installation
 ------------
 
-Just clone the repo:
-
-```sh
-git clone https://github.com/fvdm/speedtest
-```
-
 To keep the repository small I have not included the test binaries.
 You can download them from the original Project page, or generate files on the backend:
 
