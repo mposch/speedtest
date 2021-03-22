@@ -31,14 +31,8 @@ git clone https://github.com/fvdm/speedtest
 To keep the repository small I have not included the test binaries.
 You can download them from my server.
 
-**Please don't hotlink these!!**
 
-* [1mb.bin](https://fvdm.com/speedtest/1mb.bin)
-* [5mb.bin](https://fvdm.com/speedtest/5mb.bin)
-* [10mb.bin](https://fvdm.com/speedtest/10mb.bin)
-* [100mb.bin](https://fvdm.com/speedtest/100mb.bin)
-
-Or generate them yourself:
+Generate Testfiles on Server backend:
 
 The `of=` specifies the output filename and `bs=` the filesize in bytes
 where the M suffix is megabytes and G is gigabytes.
